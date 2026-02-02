@@ -1,0 +1,12 @@
+{
+  "id": "0b_blocked_yellow_Scanner_Yellow_Popup_todo_1",
+  "title": {
+    "id": "Severity",
+    "text": "Add policy severity (Low / Medium / High)."
+  },
+  "section": "Scanner Yellow Popup",
+  "type": "todo",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

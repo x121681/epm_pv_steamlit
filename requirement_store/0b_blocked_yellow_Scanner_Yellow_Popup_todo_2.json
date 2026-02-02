@@ -1,0 +1,12 @@
+{
+  "id": "0b_blocked_yellow_Scanner_Yellow_Popup_todo_2",
+  "title": {
+    "id": "Auto_approval",
+    "text": "Add auto-approval for known business domains."
+  },
+  "section": "Scanner Yellow Popup",
+  "type": "todo",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "1_it_service_direkt_High_Level_Questions_question_1",
+  "title": "Are we following whitelist first or blacklist first strategy: means denying [everything] by default and allowing only what is in white or allowing everything by default and only blocking what is in black - if we are mixing both then how does it work?",
+  "section": "High Level Questions",
+  "type": "question",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

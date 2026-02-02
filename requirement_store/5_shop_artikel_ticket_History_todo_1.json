@@ -1,0 +1,12 @@
+{
+  "id": "5_shop_artikel_ticket_History_todo_1",
+  "title": {
+    "id": "improve log",
+    "text": "log is difficult to understand, we need to improve it"
+  },
+  "section": "ticket History",
+  "type": "todo",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

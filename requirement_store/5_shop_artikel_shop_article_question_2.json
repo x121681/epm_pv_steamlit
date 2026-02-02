@@ -1,0 +1,12 @@
+{
+  "id": "5_shop_artikel_shop_article_question_2",
+  "title": {
+    "id": "stakeholder_feedback",
+    "text": "How there feedback is collected, also per e-mail and manual?"
+  },
+  "section": "shop article",
+  "type": "question",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

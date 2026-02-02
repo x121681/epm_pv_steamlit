@@ -1,0 +1,12 @@
+{
+  "id": "8_approval_required_approval_required_question_1",
+  "title": {
+    "id": "grey_align_notifications",
+    "text": "How deadlines are being aligned between departments and notifications on following schedule we have to think about it"
+  },
+  "section": "approval required",
+  "type": "question",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": "5_shop_artikel_shop_article_todo_1",
+  "title": {
+    "id": "grey_stackholders",
+    "text": "Alignment with PF, MT regarding the departments to be informed in case of Greylist decision."
+  },
+  "section": "shop article",
+  "type": "todo",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

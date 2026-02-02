@@ -1,0 +1,12 @@
+{
+  "id": "5_shop_artikel_shop_article_todo_3",
+  "title": {
+    "id": "collab_model",
+    "text": "Alignment with MT how the collaboration model on decision between departments looks like."
+  },
+  "section": "shop article",
+  "type": "todo",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

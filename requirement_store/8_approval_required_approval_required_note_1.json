@@ -1,0 +1,12 @@
+{
+  "id": "8_approval_required_approval_required_note_1",
+  "title": {
+    "id": "responsiblity",
+    "text": "Each department is responsible for their own internal process."
+  },
+  "section": "approval required",
+  "type": "note",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

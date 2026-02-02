@@ -1,0 +1,12 @@
+{
+  "id": "6_epm_scanner_dashboard_Beyond_Trust_Dashboard_todo_4",
+  "title": {
+    "id": "Software classify",
+    "text": "Apply classification button in greylist has expermimantal rerun bug"
+  },
+  "section": "Beyond Trust Dashboard",
+  "type": "todo",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

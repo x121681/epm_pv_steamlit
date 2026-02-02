@@ -1,0 +1,12 @@
+{
+  "id": "8_approval_required_approval_required_note_2",
+  "title": {
+    "id": "deadlines",
+    "text": "Deadlines should be obliged to"
+  },
+  "section": "approval required",
+  "type": "note",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

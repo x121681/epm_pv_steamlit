@@ -1,0 +1,12 @@
+{
+  "id": "14_is_p_architecture_flow_Arch_Flow_Tools_todo_1",
+  "title": {
+    "id": "Tools",
+    "text": "We have to decide which kind of tools we are going to use LUY / Confluence , both etc"
+  },
+  "section": "Arch Flow Tools",
+  "type": "todo",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": "0b_blocked_yellow_Scanner_Yellow_Popup_question_1",
+  "title": {
+    "id": "Granularity",
+    "text": "Should users always see policy reasons or only high-level explanations?"
+  },
+  "section": "Scanner Yellow Popup",
+  "type": "question",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

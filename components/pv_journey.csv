@@ -1,0 +1,71 @@
+﻿PV;Aufgabe;Häufigkeit;Prozess;Relevanz;Eigenentw. Software;Fremd-Software;Hardware
+technisch;Stellt bei Fremdprodukten Informationen zum Hersteller-Lifecycle bereit;jährlich;Lifecyclemanagement;Hardware, Fremdsoftware;-;X;X
+technisch;Schreibt den internen Lifecycle seiner IT-Produkte fort;jährlich;Lifecyclemanagement;Hardware, Fremdsoftware;-;X;X
+technisch;Stellt beabsichtigte Maßnahmen dar, die das Produkt oder die Produktnutzung betreffen;bei Bedarf;Lifecyclemanagement;Hardware, Fremdsoftware;-;X;X
+technisch;Dokumentiert den Betrieb des IT-Produkts oder prüft die Dokumentation aus Projekten (Betriebskonzept);bei Bedarf;Produktmanagement;Hardware, Fremdsoftware;X;X;X
+technisch;"Wird eine anwendungsnahe Software vom PV beschafft (mit oder ohne Sourcen) und / oder liegt die zugehörige Dokumentation in Textform vor, muss der PV Folgendes tun:
+·         Prüfung der Software auf Viren
+·         Aufbewahrung und Archivierung der Originaldaten
+·         Veranlassung des Fachtests in einer Testumgebung
+·         Veranlassung der Produktivsetzung nach erfolgter Fachfreigabe
+·         Beauftragung der SHF zur Einlagerung von Handbüchern und Datenträgern
+·         Optional bei Hostanwendungen: Durchführung der Verwaltung in Sokrates";bei Bedarf;Produktmanagement;Fremdsoftware;;X;
+technisch;Veranlasst die Archivierung und Löschung bei Außerbetriebnahme (soweit sie nicht Bestandteil der Übergabe in Projekten ist);bei Bedarf;Produktmanagement;Hardware, Eigenentw., Fremdsoftware;X;X;X
+technisch;Trägt ein, ob und für welche Mandanten das IT-Produkt aus dem Bestellkatalog bestellbar ist;bei Bedarf;Produktmanagement;Hardware, Eigenentw., Fremdsoftware;X;X;X
+fachlich;Ist Ansprechpartner zu Fragestellungen beim Vorgehen zur Erstellung/Analyse von fachlichen Dateninhalten;;Produktmanagement;;;;
+technisch;Ist Ansprechpartner bei Fragen zur Funktionsweise des IT-Produkts;auf Anfrage;Produktmanagement;Hardware, Eigenentw., Fremdsoftware;X;X;X
+fachlich;Ist Ansprechpartner bei Fragen zu fachlichen Inhalten des IT-Produkts;auf Anfrage;Produktmanagement;Hardware, Eigenentw., Fremdsoftware;X;X;X
+technisch;Pflegt eine Liste offener Punkte, die bei Weiterentwicklung oder Wartung einbezogen werden sollen;bei Bedarf;Produktmanagement;Eigenentw.;X;-;-
+technisch;Wirkt bei der Aufwandschätzung für Weiterentwicklungsprojekte mit;bei Bedarf;Produktmanagement;Eigenentw.;X;-;-
+technisch;Besucht User Groups und beobachtet den Markt;bei Bedarf;Produktmanagement;Hardware, Fremdsoftware;-;X;X
+technisch;Steht dem User Help Desk (UHD) als Second Level Support zur Verfügung;bei Bedarf;Incident Management;Hardware, Eigenentw., Fremdsoftware;X;X;X
+fachlich;Steht dem User Help Desk (UHD) als Second Level Support zur Verfügung;bei Bedarf;Incident Management;Hardware, Eigenentw., Fremdsoftware;X;X;X
+technisch;Liefert dem Incident- und dem Problem-Management aktiv Informationen zu bekannten Fehlern;bei Bedarf;Incident Management;Hardware, Eigenentw., Fremdsoftware;X;X;X
+fachlich;Liefert dem Incident- und dem Problem-Management aktiv Informationen zu bekannten Fehlern;bei Bedarf;Incident Management;Hardware, Eigenentw., Fremdsoftware;X;X;X
+technisch;Verantwortet die Fehlerbereinigung oder Fehlerumgehung seines IT-Produktes;bei Bedarf;Problem Management;Hardware, Eigenentw., Fremdsoftware;X;X;X
+fachlich;Verantwortet die Datenfehlerbereinigung seines IT-Produktes;;Problem Management;;;;
+technisch;Unterstützt das Problemmanagement bei der Bearbeitung der Problem Records zu seinem IT-Produkt;bei Bedarf;Problem Management;Hardware, Eigenentw., Fremdsoftware;X;X;X
+fachlich;Unterstützt das Problemmanagement bei der Bearbeitung der Problem Records zu seinem IT-Produkt;bei Bedarf;Problem Management;Hardware, Eigenentw., Fremdsoftware;X;X;X
+technisch;Stimmt notwendige Anpassungen (Changes) im Rahmen der Problembehebung ab;bei Bedarf;Problem Management;Hardware, Eigenentw., Fremdsoftware;X;X;X
+fachlich;Stimmt notwendige Anpassungen (Changes) im Rahmen der Problembehebung ab;bei Bedarf;Problem Management;Hardware, Eigenentw., Fremdsoftware;X;X;X
+technisch;Berät den Zentraleinkauf bei der Erstellung von Angebotsanfragen;auf Anfrage;Beschaffungsprozess;Hardware, Fremdsoftware;-;X;X
+technisch;Meldet den Lizenzbedarf an das zentrale Lizenzmanagement;jährlich;Asset-, Vertrags- und Lizenzmanagement (in Zusammenarbeit mit dem zentralen AVL-Management);Fremdsoftware;-;X;-
+technisch;Sorgt für technische Bereitstellung von Lizenzen;bei Bedarf;Asset-, Vertrags- und Lizenzmanagement (in Zusammenarbeit mit dem zentralen AVL-Management);Fremdsoftware;-;X;-
+technisch;Signalisiert Änderungsbedarf gegenüber dem Vertragsmanagement bei neuen oder zu ändernden Verträgen bezüglich Qualitäts- und Quantitätsanforderungen;bei Bedarf;Asset-, Vertrags- und Lizenzmanagement (in Zusammenarbeit mit dem zentralen AVL-Management);Hardware, Fremdsoftware;-;X;X
+technisch;Bestätigt im Rechnungsfreigabeprozess die sachliche Richtigkeit;bei Bedarf;Asset-, Vertrags- und Lizenzmanagement (in Zusammenarbeit mit dem zentralen AVL-Management);Hardware, Fremdsoftware;;X;X
+technisch;Stimmt gegebenenfalls Änderungen beim Einsatz des IT-Produkts mit den Produktverantwortlichen der betroffenen IT-Produkte ab.;bei Bedarf;Änderungen am IT-Produkt;Fremdsoftware;-;X;-
+technisch;Stimmt Infrastrukturänderungen (Hardware und systemnahe Software) mit den Produktverantwortlichen der betroffenen IT-Produkte ab.;bei Bedarf;Änderungen am IT-Produkt;Hardware, Fremdsoftware;-;X;X
+technisch;Befragt vor Hardwarewechseln die mit ihrer Software betroffenen Produktverantwortlichen, um eventuelle Lizenzauswirkungen zu klären.;bei Bedarf;Änderungen am IT-Produkt;Hardware;-;-;X
+technisch;Stellt Informationen zur DuD-B-Relevanz seines IT-Produktes bereit;bei Bedarf;Compliance;Hardware, Fremdsoftware;-;X;X
+technisch;Beantragt die Erstellung von SW-Paketen und plant deren Verteilung (nur Client);bei Bedarf;Change Management;Eigenentw., Fremdsoftware;X;X;
+technisch;Stößt die Produktivsetzung über die Inbetriebnahmeprozesse an bzw. führt diese durch.;bei Bedarf;Change Management;Hardware, Eigenentw., Fremdsoftware;X;X;X
+technisch;Spricht gegenüber dem übergreifenden Releasemanagement Handlungsempfehlungen zur Releaseplanung der ihm zugeordneten IT-Produkte aus und unterstützt bei eigenentwickelten Anwendungen die Projektplanung zur Weiterentwicklung;jährlich;Releasemanagement;Eigenentw., Fremdsoftware;X;X;-
+technisch;Rufbereitschaft bei Release-Einsätzen und bei VDS-Klimawartung (bei IT-Produkten, die für den Release-Einsatz gebraucht werden);bei Bedarf;Releasemanagement;Eigenentw., Fremdsoftware;X;X;-
+technisch;Unterstützt die Dokumentation seiner IT-Produkte im Softwareentwicklungsprozess (SEPIA-Leitfäden, Wiki);bei Bedarf;Softwareentwicklungsprozess;Eigenentw., Fremdsoftware;X;X;-
+technisch;Liefert dem Business Continuity Management Informationen bezüglich der Notfallfähigkeit (Einstufung der Notfall-Priorität abgestimmt mit dem fachlichen Produktverantwortlichen, produktbezogene Notfallpläne, etc.).;auf Anfrage;Business-Continuity-Management;Hardware, Eigenentw., Fremdsoftware;X;X;X
+technisch;Unterstützt die Durchführung von Notfalltests.;auf Anfrage;Business-Continuity-Management;Hardware, Eigenentw., Fremdsoftware;X;X;X
+technisch;"Sorgt gemäß geltender Richtlinien, Sicherheitskonzepte u.a. Vorgaben in der Datenbank „Security in der SHG“ für:
+·         die Behebung von Sicherheitslücken (z.B. Patch-Management, Konfigurationsanpassungen, Ergebnisse aus Schwachstellen-scans) sowie
+·         die Unterbindung eines Datenabflusses nach außen (z.B. Datentransfer zu Hersteller o.a. externen Zielen, Möglichkeit des Exports auf nicht vorgesehene Ablageorte und -Wege).";Initial sowie laufend;Informationssicherheits- und Informationsrisikomanagement;Hardware, Eigenentw., Fremdsoftware;X;X;X
+technisch;Unterstützt den fachlichen PV bei der Ausführung der Aufgaben zum Informationssicherheits- und Informationsrisikomanagement.;Initial, mindestens jährlich und bei Bedarf;Informationssicherheits- und Informationsrisikomanagement;Eigenentw., Fremdsoftware;X;X;
+fachlich;Fungiert als Ansprechpartner für den ISM-Koordinator des Fachbereichs und für die zentrale Unternehmenssicherheit.;bei Bedarf;Informationssicherheits- und Informationsrisikomanagement;Hardware, Eigenentw., Fremdsoftware;X;X;X
+fachlich;Meldet neue Produkte oder Änderungen an bestehenden Produkten dem ISM-Koordinator.;bei Bedarf;Informationssicherheits- und Informationsrisikomanagement;Hardware, Eigenentw., Fremdsoftware;X;X;X
+fachlich;Stellt sicher, dass die Produkte in den jeweiligen zentralen Registern gepflegt werden.;jährlich;Informationssicherheits- und Informationsrisikomanagement;Hardware, Eigenentw., Fremdsoftware;X;X;X
+fachlich;"Stellt (in Zusammenarbeit mit dem technischen PV) gemäß geltender Richtlinien u.a. Vorgaben in der Datenbank „Security in der SHG“ sicher, dass:
+·         Berechtigungskonzepte und IT-Sicherheitskonzepte zum Produkt erstellt und aktuell gehalten werden (-> jährliche Rezertifizierung).
+·         die Aufgaben im Rahmen des Informationsrisikomanagement-Prozesses, in Abstimmung mit dem ISM-Koordinator, erfüllt werden.";Initial sowie laufend;Informationssicherheits- und Informationsrisikomanagement;Hardware, Eigenentw., Fremdsoftware;X;X;X
+fachlich;Unterstützt den technischen PV bei der Ermittlung und Planung der Nutzungsmengen (Benutzerzahlen, Häufigkeit, Datenmengen, Nutzungsdauer, …);jährlich;Vertrags- und Lizenzmanagement;Hardware, Eigenentw., Fremdsoftware;X;X;X
+fachlich;Unterstützt den technischen PV mit Informationen zur Erstellung/Anpassung der DuD-B-Anlage in den Vertragsunterlagen zum IT-Produkt;bei Bedarf;Vertrags- und Lizenzmanagement;Hardware, Eigenentw., Fremdsoftware;X;X;X
+fachlich;Definiert und organisiert Fachtests für das Produkt und verantwortet die fachliche Abnahme;bei Bedarf;Projektmanagement/Releasemanagement/Business Continuity Management;Hardware, Eigenentw., Fremdsoftware;X;X;X
+fachlich;Spricht gegenüber dem übergreifenden Releasemanagement Handlungsempfehlungen zur Releaseplanung der ihm zugeordneten IT-Produkte aus und unterstützt bei eigenentwickelten Anwendungen die Projektplanung zur Weiterentwicklung;bei Bedarf;Projektmanagement/Releasemanagement/Business Continuity Management;Hardware, Eigenentw., Fremdsoftware;X;X;X
+fachlich;Rufbereitschaft bei Release-Einsätzen und bei VDS-Klimawartung (bei IT-Produkten, die für den Release-Einsatz gebraucht werden) vorbehaltlich Anforderung durch den Auftraggeber;bei Bedarf;Projektmanagement/Releasemanagement/Business Continuity Management;Hardware, Eigenentw., Fremdsoftware;X;X;X
+fachlich;Unterstützt die Durchführung von Notfalltests;bei Bedarf;Projektmanagement/Releasemanagement/Business Continuity Management;Hardware, Eigenentw., Fremdsoftware;X;X;X
+fachlich;Unterstützt die nutzenden Fachbereiche oder deren Prozessverantwortliche bei der Bewertung der Effizienz der Produktnutzung;bei Bedarf;Produktnutzung;Hardware, Eigenentw., Fremdsoftware;X;X;X
+fachlich;Berät die nutzenden Fachbereiche, Prozessverantwortliche, Projektleiter oder Fachexperten bei beabsichtigten Änderungen des Produktes oder seiner Nutzung und ist an der Abstimmung der Fachkonzepte beteiligt;bei Bedarf;Produktnutzung;Hardware, Eigenentw., Fremdsoftware;X;X;X
+fachlich;Bewertet die Folgen (z.B. neue Version notwendig) der fachlichen Nutzung des IT-Produktes;bei Bedarf;Produktnutzung;Hardware, Eigenentw., Fremdsoftware;X;X;X
+fachlich;Stimmt neue Versionen oder geänderte Nutzung mit dem technischen Produkt- oder Produktgruppenverantwortlichen ab;bei Bedarf;Produktnutzung;Hardware, Eigenentw., Fremdsoftware;X;X;X
+fachlich;Sammelt und bewertet Informationen zu seinem Produkt im Sinne des KVP;bei Bedarf;Produktnutzung;Hardware, Eigenentw., Fremdsoftware;X;X;X
+fachlich;Unterstützt den technischen PV bei Marktsichtungen;bei Bedarf;Produktnutzung;Hardware, Eigenentw., Fremdsoftware;X;X;X
+fachlich;Dokumentiert die fachliche Nutzung des IT-Produktes;Initial sowie laufend;Einführung und Dokumentation;Hardware, Eigenentw., Fremdsoftware;X;X;X
+fachlich;Entwirft, plant und organisiert die Ausbildung für Benutzer des IT-Produkts;Initial sowie laufend;Einführung und Dokumentation;Hardware, Eigenentw., Fremdsoftware;X;X;X
+fachlich;Unterstützt die nutzenden Fachbereiche oder deren Prozessverantwortliche bei der Einführung des Produkts oder neuer Versionen;Initial sowie laufend;Einführung und Dokumentation;Hardware, Eigenentw., Fremdsoftware;X;X;X

@@ -1,0 +1,12 @@
+{
+  "id": "0_scanner_blacklist_scanner_blacklist_note_1",
+  "title": {
+    "id": "Challenging_not_required",
+    "text": "IBW thinks here is no need of providing objections possibilities"
+  },
+  "section": "scanner blacklist",
+  "type": "note",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": "0b_blocked_yellow_Scanner_Yellow_Popup_question_3",
+  "title": {
+    "id": "popularity",
+    "text": "Do repeated requests influence decision confidence?"
+  },
+  "section": "Scanner Yellow Popup",
+  "type": "question",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

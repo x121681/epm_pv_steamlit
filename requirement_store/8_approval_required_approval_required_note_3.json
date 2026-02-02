@@ -1,0 +1,12 @@
+{
+  "id": "8_approval_required_approval_required_note_3",
+  "title": {
+    "id": "api_mpi_luy",
+    "text": "We are assuming that we can trigger directly from shop article an architectural flow process"
+  },
+  "section": "approval required",
+  "type": "note",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": "0c_blocked_red_blocked_red_question_1",
+  "title": {
+    "id": "Shop_article_trigger",
+    "text": "Does the Email trigger the Shop Artikel process automatically or is manual intervention needed?"
+  },
+  "section": "blocked red",
+  "type": "question",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

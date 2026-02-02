@@ -1,0 +1,12 @@
+{
+  "id": "0b_blocked_yellow_Scanner_Yellow_Popup_todo_3",
+  "title": {
+    "id": "interop.",
+    "text": "Link LUY → CMDB → EPM decision trace."
+  },
+  "section": "Scanner Yellow Popup",
+  "type": "todo",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

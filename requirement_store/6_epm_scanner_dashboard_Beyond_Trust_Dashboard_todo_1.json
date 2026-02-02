@@ -1,0 +1,12 @@
+{
+  "id": "6_epm_scanner_dashboard_Beyond_Trust_Dashboard_todo_1",
+  "title": {
+    "id": "UX_transparency",
+    "text": "The possibility of making Blacklist / Whitelist / Greylist transparent to end user with opportunities to poll for black and grey list"
+  },
+  "section": "Beyond Trust Dashboard",
+  "type": "todo",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

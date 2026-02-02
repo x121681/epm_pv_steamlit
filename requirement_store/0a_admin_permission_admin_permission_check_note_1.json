@@ -1,0 +1,12 @@
+{
+  "id": "0a_admin_permission_admin_permission_check_note_1",
+  "title": {
+    "id": "Admin login",
+    "text": "This process is shown in this prototype for the sake of completeness, but it doesn't impact Whitelisting process as such."
+  },
+  "section": "admin permission check",
+  "type": "note",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

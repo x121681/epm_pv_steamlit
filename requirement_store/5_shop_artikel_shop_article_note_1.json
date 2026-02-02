@@ -1,0 +1,12 @@
+{
+  "id": "5_shop_artikel_shop_article_note_1",
+  "title": {
+    "id": "paramerters",
+    "text": "The admin evaluates the software based on:- Security risk (malware history, remote access ability, encryption bypass)- Data protection implications (GDPR relevance, telemetry, cloud connections)- License / legal concerns- Compliance guidelines- Technical stability impact- Business need vs risk"
+  },
+  "section": "shop article",
+  "type": "note",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

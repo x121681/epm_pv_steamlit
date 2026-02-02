@@ -1,0 +1,12 @@
+{
+  "id": "5_shop_artikel_shop_article_question_1",
+  "title": {
+    "id": "stakeholder_contact",
+    "text": "How the stakeholeders like CSO-I, IS-P are informed is not clear? Per E-Mail?"
+  },
+  "section": "shop article",
+  "type": "question",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

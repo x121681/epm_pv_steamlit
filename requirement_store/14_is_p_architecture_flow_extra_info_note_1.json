@@ -1,0 +1,12 @@
+{
+  "id": "14_is_p_architecture_flow_extra_info_note_1",
+  "title": {
+    "id": "extra information",
+    "text": "not part of official dialog but some things are valid to be asked here need a confirmation with other stakeholders"
+  },
+  "section": "extra info",
+  "type": "note",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

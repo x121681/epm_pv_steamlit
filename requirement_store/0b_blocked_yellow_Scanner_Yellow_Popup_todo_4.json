@@ -1,0 +1,12 @@
+{
+  "id": "0b_blocked_yellow_Scanner_Yellow_Popup_todo_4",
+  "title": {
+    "id": "System context",
+    "text": "system context data presently doesn't make much sense, need to improve it."
+  },
+  "section": "Scanner Yellow Popup",
+  "type": "todo",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

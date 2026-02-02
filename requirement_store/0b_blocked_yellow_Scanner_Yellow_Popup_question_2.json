@@ -1,0 +1,12 @@
+{
+  "id": "0b_blocked_yellow_Scanner_Yellow_Popup_question_2",
+  "title": {
+    "id": "Just_in_Time_Scenarios",
+    "text": "Do we allow time-bound whitelisting?"
+  },
+  "section": "Scanner Yellow Popup",
+  "type": "question",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

@@ -1,0 +1,12 @@
+{
+  "id": "0_scanner_blacklist_scanner_blacklist_question_1",
+  "title": {
+    "id": "Dynamism",
+    "text": "Presently we are considering simple scenarios but e.g. postman situation showed us that black / whitelist needs to be dynamic?"
+  },
+  "section": "scanner blacklist",
+  "type": "question",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

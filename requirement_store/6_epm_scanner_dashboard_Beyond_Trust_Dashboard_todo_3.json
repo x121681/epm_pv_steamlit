@@ -1,0 +1,12 @@
+{
+  "id": "6_epm_scanner_dashboard_Beyond_Trust_Dashboard_todo_3",
+  "title": {
+    "id": "Delete Selected Ticket button",
+    "text": "A username bug is popping up as of now"
+  },
+  "section": "Beyond Trust Dashboard",
+  "type": "todo",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

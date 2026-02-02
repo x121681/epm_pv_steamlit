@@ -1,0 +1,12 @@
+{
+  "id": "0c_blocked_red_extra_info_note_1",
+  "title": {
+    "id": "extra information",
+    "text": "not part of official dialog but some things are valid to be asked here need a confirmation with other stakeholders"
+  },
+  "section": "extra info",
+  "type": "note",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

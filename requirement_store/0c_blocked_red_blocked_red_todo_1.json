@@ -1,0 +1,12 @@
+{
+  "id": "0c_blocked_red_blocked_red_todo_1",
+  "title": {
+    "id": "assume_auto_trigger",
+    "text": "Until clarified, we assume email to epm-admin@shg.de triggers Shop Artikel workflow."
+  },
+  "section": "blocked red",
+  "type": "todo",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}
