@@ -1,0 +1,12 @@
+{
+  "id": "unknown_page_scanner_blacklist_todo_3",
+  "title": {
+    "id": "state blacklist",
+    "text": "If on this page user sees a luy app as blacklist then for learn more in EPM dashbaord he should be able to see the same app in blacklist section"
+  },
+  "section": "scanner blacklist",
+  "type": "todo",
+  "status": "Proposed",
+  "actor": "Unknown",
+  "history": []
+}

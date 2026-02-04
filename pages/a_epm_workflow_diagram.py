@@ -20,10 +20,9 @@ st.caption(
 # -------------------------------------------------
 # 1️⃣ Mermaid diagram (VISUAL ONLY)
 # -------------------------------------------------
-st_mermaid("""
+st_mermaid("""          
 %%{init: {'flowchart': {'htmlLabels': true}, 'primaryColor': '#E8F4F8', 'primaryTextColor': '#000', 'primaryBorderColor': '#0066cc', 'lineColor': '#4A4A4A', 'secondBkgColor': '#FFF4E6', 'tertiaryColor': '#E8F5E9'}}%%
 flowchart LR
-
 %% =========================
 %% LEGEND NODES
 %% =========================
@@ -214,9 +213,9 @@ with c3:
     if st.button("License Review"):
         st.switch_page("pages/18_backend_spyder.py")
 
+st.subheader("📊 IBW / EPM Original Flow")
 st_mermaid("""
 flowchart TD
-
 %% =========================
 %% Entry Points
 %% =========================
@@ -282,20 +281,281 @@ E --> L
 K --> L
 """)
 
-show_requirements("High Level Questions",[
-    "Are we following whitelist first or blacklist first strategy: means denying [everything] by default and allowing only what is in white "
-    "or allowing everything by default and only blocking what is in black - if we are mixing both then how does it work?",
-    "In both cases what is to be allowed and what [Everything] means needs to be clarified, IT-Product and its scope and its mapping to different"
-    "Semantics model - Interop - EAM needs to be agreed and strategy how to implement it?"
-],req_type="question")
+st.subheader("📊 Arch + PV Context Mapping")
 
-show_requirements("High Level Questions",[
-    "From our first collection strategy where we worked on initial blocked excel list and collection of developers in confluence, my assumption"
-    "is that we have a whitelist first strategy, but as we have some scripts as well in the list what is exactly being blocked is not clear",
-    "Meanwhile as it is more than 1 year may be we have shifted to a mixed strategy",
-    "Whatever is whitelisted should be categorized already in these capability / domain - Which is presently not the case",
-    "Whatever is block / grey list should also have domain and category, specially if they are popular tools"
-],req_type="note")
-show_requirements("High Level Questions",[
-    "Include rest of the pages and journexs in home",
-],req_type="todo")
+st_mermaid("""          
+flowchart TD
+    %% =========================
+    %% LEGEND NODES
+    %% =========================
+    LEGEND["📌 LEGEND"]:::legend
+    Process1["Arch"]:::Arch
+    Process2["PV process"]:::PV_process
+    Process3["Comments"]:::Comments
+    Process4["Others"]:::Others
+
+    AR["📣 Approval Required"]
+    TRIGGER["🔔 Trigger Arch Review"]
+    TOOL1["🔁 Provide Feedback"]       
+    FUNC1["🔁 Classify Domain / Capability"]
+    FUNC2["Simple Keyword Matching"]
+
+    N3["ℹ️ qualify Domain / Capabilities"]
+    N2["ℹ️ Name, Desc, Usecase matching"]
+    N1["ℹ️ Which EAM-Tool?"]
+
+    SUG["🧾 Scored suggestions<br/>(domain & capability)"]
+    ARCH["👤 Architect selects D & C"]
+
+    CHECK{"PV(s) available for<br/>selected combination?"}
+    N4["ℹ️ Combi PV / D & C stored where?"]
+
+    PVFOUND["✅ PV(s) found"]
+    PVNONE["❌ No PV found"]
+
+    INFORM_APPROVAL["📨 Inform Approval Required"]
+    INFORM_CUSTOMER["📂 Update Ticket History"]
+
+    REQUEST_PV["✉️ Ask PV context via Ticket"]
+    N5["ℹ️ Customer transparency concept"]
+
+    PV_CONTEXT["🔗 PV Context Mapping page"]
+    N6["ℹ️ param for PV decision"]
+    N7["ℹ️ PV Tasks from PV resp. map"]
+    N8["ℹ️ PV rule engine concept"]
+
+    CHECK1{"PV(s) Required?"}
+    INFO_APP["No PV required"]
+    INFO_CUSTOMER2["Update Ticket History"]
+
+    PV_TASK["Level for tasks cal."]
+    CUSTOMER_AGREE["Inform and get permission"]
+
+    %% =========================
+    %% FLOW
+    %% =========================
+    AR -->|Parallel Review| TRIGGER
+    TRIGGER --> TOOL1
+    TRIGGER --> FUNC1
+    FUNC1 --> FUNC2
+    FUNC1 -.-> N3
+    FUNC2 -.-> N2
+    TRIGGER -.-> N1
+    FUNC1 --> SUG
+    SUG --> ARCH
+    ARCH --> CHECK
+    CHECK -.-> N4 
+
+    CHECK -->|Yes| PVFOUND
+    CHECK -->|No| PVNONE
+
+    PVFOUND --> INFORM_APPROVAL
+    PVFOUND --> INFORM_CUSTOMER
+
+    PVNONE --> REQUEST_PV
+    REQUEST_PV -.-> N5
+    REQUEST_PV --> PV_CONTEXT
+
+    PV_CONTEXT -.-> N6
+    PV_CONTEXT -.-> N7  
+    PV_CONTEXT -.-> N8      
+    PV_CONTEXT --> CHECK1
+
+    CHECK1 -->|No| INFO_APP
+    CHECK1 -->|No| INFO_CUSTOMER2
+    CHECK1 -->|Yes| PV_TASK
+    PV_TASK --> CUSTOMER_AGREE
+
+    %% =========================
+    %% STYLING
+    %% =========================
+    classDef Arch fill:#E3F2FD,stroke:#1976D2,stroke-width:2px,color:#000
+    classDef PV_process fill:#FFF3E0,stroke:#F57C00,stroke-width:2px,color:#000
+    classDef Comments fill:#E8F5E9,stroke:#388E3C,stroke-width:2px,color:#000
+    classDef legend fill:#F3E5F5,stroke:#7B1FA2,stroke-width:2px,color:#000
+    classDef Others fill:#ECEFF1,stroke:#455A64,stroke-width:2px,stroke-dasharray:5 3,color:#263238
+
+    class TRIGGER,SUG,TOOL1,FUNC1,FUNC2,ARCH,CHECK,PVFOUND,PVNONE Arch
+    class REQUEST_PV,PV_CONTEXT,PV_TASK,CHECK1,INFO_APP,PV_TASK PV_process
+    class N1,N2,N3,N4,N5,N6,N7,N8 Comments
+    class INFORM_APPROVAL,INFORM_CUSTOMER,AR,INFO_CUSTOMER2,CUSTOMER_AGREE Others
+    class LEGEND legend
+""")
+
+st.subheader("📊 Arch flow")
+
+st_mermaid("""
+flowchart TD
+    A["Software name + description"]
+    B["Keyword lookup from catalog"]
+
+    C["Match against known domains"]
+    D["Match against known capabilities"]
+
+    E["Score relevance"]
+    F["Rank best matches"]
+
+    G["Show suggestions to IS-P"]
+    H["Architect selects final classification"]
+
+    A --> B
+    B --> C
+    B --> D
+    C --> E
+    D --> E
+    E --> F
+    F --> G
+    G --> H
+""")
+
+st.subheader("📊 Arch review --> PV decision")
+st_mermaid("""
+flowchart TD
+    A["Final Domain & Capabilities"]
+    B["Look up PVs for domain"]
+    C["Look up PVs for capability"]
+
+    D{"Any PV found?"}
+
+    E["PV coverage OK"]
+    F["PV context required"]
+
+    G["Forward ticket to PV Context Mapping"]
+
+    A --> B
+    A --> C
+    B --> D
+    C --> D
+
+    D -->|Yes| E
+    D -->|No| F
+    F --> G
+""")
+
+st.subheader("📊 PV context Mapping")
+col1, col2 = st.columns(2)
+with col1:
+    st_mermaid("""   
+flowchart TD
+    A["Start: New product or software"]
+    B["Look at product type<br/>(Application, Tool, Script)"]
+
+    C{"Is it a<br/>business application?"}
+    D["PV is required"]
+
+    E{"Is it a technical tool<br/>or script?"}
+    F{"Does it handle sensitive data,<br/>regulations, or critical business?"}
+
+    G["PV is required"]
+    H["PV is NOT required<br/>(low-risk internal use)"]
+
+    A --> B
+    B --> C
+
+    C -->|Yes| D
+    C -->|No| E
+
+    E -->|Yes| F
+    F -->|Yes| G
+    F -->|No| H
+""")
+with col2:
+    st_mermaid(""" 
+flowchart TD
+    A["Start with business importance"]
+    B["Low → L1<br/>Medium → L2<br/>High → L3<br/>Mission critical → L4"]
+
+    C{"More users?"}
+    D["Increase level"]
+
+    E{"Externally operated<br/>(e.g. SaaS)?"}
+    F["Increase level"]
+
+    G{"Sensitive or regulated data?"}
+    H["Increase level"]
+
+    I{"Internet accessible?"}
+    J["Increase level"]
+
+    K["Final PV level"]
+    L["Limit level based on tool type"]
+
+    A --> B
+    B --> C
+
+    C -->|Yes| D
+    C -->|No| E
+    D --> E
+
+    E -->|Yes| F
+    E -->|No| G
+    F --> G
+
+    G -->|Yes| H
+    G -->|No| I
+    H --> I
+
+    I -->|Yes| J
+    I -->|No| K
+    J --> K
+
+    K --> L
+""")
+
+
+show_requirements(
+    "High Level",
+    items=[
+        {
+            "id": "Whitelist_vs_Blacklist",
+            "text": "Are we following whitelist first or blacklist first strategy: means denying [everything] by default and allowing only what is in white "
+            "or allowing everything by default and only blocking what is in black - if we are mixing both then how does it work? In both cases what is to be allowed and what [Everything] means needs to be clarified",
+        },
+        {
+            "id": "Semantics_model_mapping",
+            "text": "IT-Product and its scope and its mapping to different"
+            "Semantics model - Interop - EAM needs to be agreed and strategy how to implement it?"
+        },
+        {
+            "id":"Demand",
+            "text" : "We must agree on the need for to what extend we should automate the process - Usability and feasability"
+
+        },
+    ],
+    req_type="question"
+)
+
+show_requirements(
+    "High Level Todos",
+    items=[
+        {
+            "id": "Journeys",
+            "text": "Include rest of the pages and journeys in home",
+        }
+    ],
+    req_type="todo"
+)
+
+show_requirements(
+    "High Level Notes",
+    items=[
+        {
+            "id": "Assumption whitelist first",
+            "text": "From our first collection strategy where we worked on initial blocked excel list and collection of developers in confluence, my assumption"
+            "is that we have a whitelist first strategy, but as we have some scripts as well in the list what is exactly being blocked is not clear",
+        },
+        {
+            "id": "1 year passed",
+            "text": "Meanwhile as it is more than 1 year may be we have shifted to a mixed strategy",
+        },
+        {
+            "id": "D&C mapping",
+            "text": "Whatever is whitelisted should be categorized already in these capability / domain - Which is presently not the case",
+        },
+        {
+            "id": "Black/ Grey D & C",
+            "text" : "Whatever is block / grey list should also have domain and category, specially if they are popular tools"
+        }
+    ],
+    req_type="note"
+)

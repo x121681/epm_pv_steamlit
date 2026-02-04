@@ -1,0 +1,12 @@
+{
+  "id": "unknown_page_scanner_blacklist_todo_1",
+  "title": {
+    "id": "User_challenge",
+    "text": "Not only we need to integrate flexibility of white / blacklist swapping but also user can challenge it"
+  },
+  "section": "scanner blacklist",
+  "type": "todo",
+  "status": "Proposed",
+  "actor": "Unknown",
+  "history": []
+}

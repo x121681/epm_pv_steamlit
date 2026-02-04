@@ -1,5 +1,4 @@
 ﻿"Name";"Description"
-"Enterprise Software Categorization";"A placeholder to discuss, track & log our decision regarding software domain and capabilities"
 "Domain – API & Integration Tools";"Tools enabling API design, testing, documentation, and system-to-system integration."
 "Capability – API Design & Modeling";"Tools to design, map, and document API structures. Examples: Swagger, Stoplight."
 "Capability – API Testing & Validation";"Tools for validating API functionality and correctness. Examples: Postman, SoapUI."

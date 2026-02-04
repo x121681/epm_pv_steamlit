@@ -13,6 +13,7 @@ class LuyEngine:
         self.csv_path = csv_path
         self.DOMAIN_KEYWORDS = {}
         self.CAPABILITY_KEYWORDS = {}
+        self.PV_MAP = defaultdict(list)  # stores PV ids for domains/capabilities/pairs
         self.load_csv()
 
     # ---------------------------------------------------------
@@ -39,16 +40,26 @@ class LuyEngine:
                 # Extract keywords: split on commas or newlines, remove empties
                 keywords = [kw.strip() for kw in re.split(r"[,\n]", description) if kw.strip()]
 
+                # parse optional PVs column (comma/semicolon/pipe separated)
+                pv_field = row.get("pv", "")
+                pv_list = [p.strip() for p in re.split(r"[,;\n|]", pv_field) if p.strip()]
+
                 # Identify as domain or capability based on prefix
                 if name.lower().startswith("domain"):
                     domain_name = name.split("–")[-1].strip() if "–" in name else name
                     self.DOMAIN_KEYWORDS[domain_name] = keywords
+                    if pv_list:
+                        self.PV_MAP[("domain", domain_name)].extend(pv_list)
                 elif name.lower().startswith("capability"):
                     cap_name = name.split("–")[-1].strip() if "–" in name else name
                     self.CAPABILITY_KEYWORDS[cap_name] = keywords
+                    if pv_list:
+                        self.PV_MAP[("capability", cap_name)].extend(pv_list)
                 else:
                     # fallback to domain if no prefix
                     self.DOMAIN_KEYWORDS[name] = keywords
+                    if pv_list:
+                        self.PV_MAP[("domain", name)].extend(pv_list)
 
     # ---------------------------------------------------------
     # Utility
@@ -100,3 +111,49 @@ class LuyEngine:
             "domains": domains,
             "capabilities": capabilities
         }
+
+    def get_pvs(self, domain: str = None, capability: str = None):
+        """
+        Return PVs for domain/capability combination.
+        - If both given, try pair-specific mapping (if added as ("pair", domain, capability)),
+          else return intersection if available, otherwise union.
+        - If only one given, return PVs for that key.
+        """
+        if domain and capability:
+            pair_key = ("pair", domain, capability)
+            if pair_key in self.PV_MAP:
+                return list(set(self.PV_MAP[pair_key]))
+
+            domain_pvs = set(self.PV_MAP.get(("domain", domain), []))
+            cap_pvs = set(self.PV_MAP.get(("capability", capability), []))
+            inter = domain_pvs & cap_pvs
+            return list(inter) if inter else list(domain_pvs | cap_pvs)
+
+        pvs = set()
+        if domain:
+            pvs.update(self.PV_MAP.get(("domain", domain), []))
+        if capability:
+            pvs.update(self.PV_MAP.get(("capability", capability), []))
+        return list(pvs)
+
+    def suggest_with_pv(self, software_name, description, use_case="", top_n=3):
+        """
+        Produce top N domain and capability suggestions (by score) and annotate
+        each domain-capability pair with found PVs.
+        """
+        domains = self.get_domain_suggestions(software_name, description, use_case)[:top_n]
+        capabilities = self.get_capability_suggestions(software_name, description, use_case)[:top_n]
+
+        results = []
+        for d, dscore in domains:
+            for c, cscore in capabilities:
+                pvs = self.get_pvs(domain=d, capability=c)
+                results.append({
+                    "domain": d,
+                    "domain_score": dscore,
+                    "capability": c,
+                    "capability_score": cscore,
+                    "pvs": pvs,
+                    "combined_score": dscore + cscore
+                })
+        return sorted(results, key=lambda x: x["combined_score"], reverse=True)

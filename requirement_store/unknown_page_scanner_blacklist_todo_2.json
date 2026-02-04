@@ -1,0 +1,12 @@
+{
+  "id": "unknown_page_scanner_blacklist_todo_2",
+  "title": {
+    "id": "Blocked_vs_Blacklist",
+    "text": "Clarify with IBW difference between blocked and blacklisted software and their decision process"
+  },
+  "section": "scanner blacklist",
+  "type": "todo",
+  "status": "Proposed",
+  "actor": "Unknown",
+  "history": []
+}

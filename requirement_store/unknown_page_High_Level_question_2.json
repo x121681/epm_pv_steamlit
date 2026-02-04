@@ -1,0 +1,12 @@
+{
+  "id": "unknown_page_High_Level_question_2",
+  "title": {
+    "id": "ticket_already_blacklisted",
+    "text": "Is it possible to create a request in IT-Service-Direct for already blacklisted software that can't be challenged?"
+  },
+  "section": "High Level",
+  "type": "question",
+  "status": "Proposed",
+  "actor": "Unknown",
+  "history": []
+}

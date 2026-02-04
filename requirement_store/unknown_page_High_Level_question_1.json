@@ -1,0 +1,12 @@
+{
+  "id": "unknown_page_High_Level_question_1",
+  "title": {
+    "id": "Whitelist_vs_Blacklist",
+    "text": "Are we following whitelist first or blacklist first strategy: means denying [everything] by default and allowing only what is in white or allowing everything by default and only blocking what is in black - if we are mixing both then how does it work?"
+  },
+  "section": "High Level",
+  "type": "question",
+  "status": "Proposed",
+  "actor": "Unknown",
+  "history": []
+}
