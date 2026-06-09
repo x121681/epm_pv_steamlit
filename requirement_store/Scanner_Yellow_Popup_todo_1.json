@@ -1,0 +1,23 @@
+{
+  "id": "Scanner_Yellow_Popup_todo_1",
+  "title": {
+    "id": "Severity",
+    "text": "Add policy severity (Low / Medium / High)."
+  },
+  "section": "Scanner Yellow Popup",
+  "type": "todo",
+  "status": "Todo",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-21T15:17:55.810843",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "Todo",
+        "comment": "not discussed yet"
+      }
+    }
+  ]
+}

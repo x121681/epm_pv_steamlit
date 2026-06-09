@@ -158,15 +158,7 @@ with tab3:
                 blacklist.append({"Software": selected, "Reason": "Manual review completed", "Policy": "Blacklisted"})
             set_epm_lists(blacklist, whitelist, greylist)
             st.success(f"Updated classification: {selected} → {action.upper()}")
-            st.experimental_rerun()
-
-# -----------------------------
-# ADMIN TICKETS TAB
-# -----------------------------
-if admin_tab:
-    require_role("admin")
-    with admin_tab[0]:
-        st.header("📝 All Tickets Overview (Admin)")
+            st.rerun()
         tickets = get_all_tickets()
         if tickets:
             df_tickets = pd.DataFrame(tickets)
@@ -183,7 +175,7 @@ if admin_tab:
                 tickets = [t for t in tickets if not (t["application"] == app_name and t["username"] == user_name)]
                 set_all_tickets(tickets)
                 st.success(f"Deleted ticket for {app_name} ({user_name})")
-                st.experimental_rerun()
+                st.rerun()
         else:
             st.info("No tickets available.")
 

@@ -526,28 +526,8 @@ show_requirements(
 )
 
 show_requirements(
-    "High Level Todos",
-    items=[
-        {
-            "id": "Journeys",
-            "text": "Include rest of the pages and journeys in home",
-        }
-    ],
-    req_type="todo"
-)
-
-show_requirements(
     "High Level Notes",
     items=[
-        {
-            "id": "Assumption whitelist first",
-            "text": "From our first collection strategy where we worked on initial blocked excel list and collection of developers in confluence, my assumption"
-            "is that we have a whitelist first strategy, but as we have some scripts as well in the list what is exactly being blocked is not clear",
-        },
-        {
-            "id": "1 year passed",
-            "text": "Meanwhile as it is more than 1 year may be we have shifted to a mixed strategy",
-        },
         {
             "id": "D&C mapping",
             "text": "Whatever is whitelisted should be categorized already in these capability / domain - Which is presently not the case",

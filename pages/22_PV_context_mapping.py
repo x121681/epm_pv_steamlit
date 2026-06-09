@@ -1,6 +1,7 @@
 import streamlit as st
 from components.pv_rules_engine import PVEngine
 from datetime import datetime
+from components.requirements import show_requirements
 
 st.set_page_config(
     page_title="PV Context Mapping",
@@ -79,8 +80,11 @@ with col3:
     urgency = st.selectbox(
         "Urgency",
         ["Niedrig", "Mittel", "Hoch", "Kritisch"],
-        index=["Niedrig", "Mittel", "Hoch", "Kritisch"]
-        .index(ticket.get("urgency", "Mittel"))
+        index=(
+            ["Niedrig", "Mittel", "Hoch", "Kritisch"].index(ticket.get("urgency", "Mittel"))
+            if ticket.get("urgency", "Mittel") in ["Niedrig", "Mittel", "Hoch", "Kritisch"]
+            else 1
+        )
     )
     tool_type = st.selectbox(
         "Tool type",
@@ -351,3 +355,26 @@ if st.button("💾 Save PV decision & obligations"):
     st.json(ticket["derived_obligations"])
 
 
+show_requirements(
+    "PV Context Mapping",
+    items=[
+        {
+            "id": "EAM Concept",
+            "text": "Factors that what a PV needs to do for a specific tool?",
+        },
+        {
+            "id": "PV-Eligibility",
+            "text": "Can an Algorithm be used to determine whether a PV is required or not based on the context of the tool? If yes, what are the most important factors and how should they be weighted?",
+        },
+        {
+            "id":"PV-Tasks",
+            "text" : "Standard image of PV tasks are not complete?"
+
+        },
+        {
+            "id":"PV-tasks algorithm",
+            "text" : "Can we derive an algorithm to determine which PV tasks are required for a specific tool based on its context and the PV-eligibility decision?"
+        }
+    ],
+    req_type="question"
+)

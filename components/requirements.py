@@ -1,11 +1,12 @@
 import streamlit as st
-from state.requirements import add_requirement_event, save_requirement
+from datetime import datetime
+from state.requirements import save_requirement
 
 # -----------------------------
 # Configuration
 # -----------------------------
 DEFAULT_STATUS = "Proposed"
-LIFECYCLE_STATES = ["Proposed", "In Progress", "Completed", "Reviewed"]
+LIFECYCLE_STATES = ["Proposed", "In Progress", "Todo", "Completed", "Reviewed", "Rejected", "Not Relevant"]
 
 # -----------------------------
 # Ensure requirement exists
@@ -27,7 +28,9 @@ def ensure_requirement(req_id, title, section, req_type, actor):
         }
 
         st.session_state.requirements[req_id] = req
-        save_requirement(req)   # 🔥 persist immediately
+        save_requirement(req)
+
+    return st.session_state.requirements[req_id]
 
 # -----------------------------
 # Main UI
@@ -40,7 +43,6 @@ def show_requirements(section_title, items, req_type="question", expanded=False)
         "note": "Notices and remarks regarding the process."
     }
 
-    page_name = st.session_state.get("device_current_page", "unknown_page")
     actor = (st.session_state.get("user") or {}).get("username", "Unknown")
 
     with st.expander(
@@ -50,9 +52,9 @@ def show_requirements(section_title, items, req_type="question", expanded=False)
         st.caption(captions.get(req_type, ""))
 
         for idx, item in enumerate(items):
-            req_id = f"{page_name}_{section_title.replace(' ','_')}_{req_type}_{idx+1}"
+            req_id = f"{section_title.replace(' ','_')}_{req_type}_{idx+1}"
 
-            ensure_requirement(
+            req = ensure_requirement(
                 req_id=req_id,
                 title=item,
                 section=section_title,
@@ -60,9 +62,9 @@ def show_requirements(section_title, items, req_type="question", expanded=False)
                 actor=actor
             )
 
-            req = st.session_state.requirements[req_id]
+            if not req:
+                continue
 
-            # Initialize last-known status ONCE
             last_status_key = f"{req_id}_last_status"
             if last_status_key not in st.session_state:
                 st.session_state[last_status_key] = req["status"]
@@ -80,7 +82,6 @@ def show_requirements(section_title, items, req_type="question", expanded=False)
                     key=f"{req_id}_status"
                 )
 
-            # Status changed → require comment
             if status != req["status"]:
                 comment_key = f"{req_id}_comment"
 
@@ -99,16 +100,16 @@ def show_requirements(section_title, items, req_type="question", expanded=False)
                         req["status"] = status
                         req["actor"] = actor
 
-                        add_requirement_event(
-                            req_id=req_id,
-                            action="Status updated",
-                            actor=actor,
-                            details={
+                        req["history"].append({
+                            "timestamp": datetime.now().isoformat(),
+                            "action": "Status updated",
+                            "actor": actor,
+                            "details": {
                                 "from": old_status,
                                 "to": status,
                                 "comment": comment.strip()
                             }
-                        )
+                        })
 
                         save_requirement(req)
 

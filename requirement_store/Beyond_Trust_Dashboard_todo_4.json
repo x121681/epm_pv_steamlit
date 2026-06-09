@@ -1,0 +1,12 @@
+{
+  "id": "Beyond_Trust_Dashboard_todo_4",
+  "title": {
+    "id": "Software classify",
+    "text": "Fix rerun bug on Apply Classification"
+  },
+  "section": "Beyond Trust Dashboard",
+  "type": "todo",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

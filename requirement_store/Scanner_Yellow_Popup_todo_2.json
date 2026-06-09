@@ -1,0 +1,23 @@
+{
+  "id": "Scanner_Yellow_Popup_todo_2",
+  "title": {
+    "id": "Auto_approval",
+    "text": "Add auto-approval for known business domains."
+  },
+  "section": "Scanner Yellow Popup",
+  "type": "todo",
+  "status": "Todo",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-21T15:19:19.581661",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "Todo",
+        "comment": "not discussed yet"
+      }
+    }
+  ]
+}

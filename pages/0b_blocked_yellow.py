@@ -165,10 +165,6 @@ show_requirements(
         {
             "id": "interop.",
             "text": "Link LUY → CMDB → EPM decision trace."
-        },
-        {
-            "id": "System context",
-            "text": "system context data presently doesn't make much sense, need to improve it."
         }
     ],
     req_type="todo"

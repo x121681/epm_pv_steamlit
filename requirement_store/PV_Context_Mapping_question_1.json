@@ -1,0 +1,23 @@
+{
+  "id": "PV_Context_Mapping_question_1",
+  "title": {
+    "id": "EAM Concept",
+    "text": "Factors that what a PV needs to do for a specific tool?"
+  },
+  "section": "PV Context Mapping",
+  "type": "question",
+  "status": "In Progress",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-22T11:19:21.835403",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "In Progress",
+        "comment": "presently there are two or three concepts that talk about different factors but it is not finalized , agreed and documented"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "Scanner_Yellow_Popup_question_1",
+  "title": {
+    "id": "Granularity",
+    "text": "Should users always see policy reasons or only high-level explanations?"
+  },
+  "section": "Scanner Yellow Popup",
+  "type": "question",
+  "status": "In Progress",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-21T15:12:35.657501",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "In Progress",
+        "comment": "This was recommended to IBW by me and also by IPI colleagues that perhaps it make sense that users are able to see the granular reason in blacklist. the status is unknown how we will proceed but the access to EPM dashboard is rejected"
+      }
+    }
+  ]
+}

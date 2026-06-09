@@ -1,0 +1,33 @@
+{
+  "id": "High_Level_question_3",
+  "title": {
+    "id": "Demand",
+    "text": "We must agree on the need for to what extend we should automate the process - Usability and feasability"
+  },
+  "section": "High Level",
+  "type": "question",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-22T10:38:06.037125",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "Todo",
+        "comment": "as mentioned on different page this is something open and the POC here created was suppose to focus on these granular automation points."
+      }
+    },
+    {
+      "timestamp": "2026-05-22T11:11:12.649030",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Todo",
+        "to": "Proposed",
+        "comment": "We were informed by IS-G that the present list of PV Task that is used as basis here and is core of this dynamic idea is not uptodate. They are planning to do so, we have to follow up on it. But it is mandatory only for this idea, other concepts jsut require the bare minimum for PV-Light so the tasks that are needed for PV-light and rest is PV-Full by default."
+      }
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "Beyond_Trust_Dashboard_todo_3",
+  "title": {
+    "id": "Delete Selected Ticket button",
+    "text": "Fix username bug on deletion"
+  },
+  "section": "Beyond Trust Dashboard",
+  "type": "todo",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

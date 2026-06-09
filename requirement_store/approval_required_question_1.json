@@ -1,0 +1,23 @@
+{
+  "id": "approval_required_question_1",
+  "title": {
+    "id": "grey_align_notifications",
+    "text": "How deadlines are being aligned between departments and notifications on following schedule we have to think about it"
+  },
+  "section": "approval required",
+  "type": "question",
+  "status": "Todo",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-22T09:56:29.921990",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "Todo",
+        "comment": "As there is nothing regarding deadline in our current procedure we have to align on this"
+      }
+    }
+  ]
+}

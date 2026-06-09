@@ -250,14 +250,6 @@ show_requirements(
     "approval required",
     items=[
         {
-            "id": "responsiblity",
-            "text": "Each department is responsible for their own internal process.",
-        },
-         {
-            "id": "deadlines",
-            "text": "Deadlines should be obliged to",
-        },
-        {
             "id": "api_mpi_luy",
             "text": "We are assuming that we can trigger directly from shop article an architectural flow process",
         }

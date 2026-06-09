@@ -1,0 +1,23 @@
+{
+  "id": "scanner_blacklist_question_1",
+  "title": {
+    "id": "Dynamism",
+    "text": "Presently we are considering simple scenarios but e.g. postman situation showed us that black / whitelist needs to be dynamic?"
+  },
+  "section": "scanner blacklist",
+  "type": "question",
+  "status": "Rejected",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-21T14:46:14.076215",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "Rejected",
+        "comment": "The concern was presented to IBW- Patrick Fischer and IS-P-Matthias Teinert, IBW thinks that postman is a unique case and this problem will not occur so often to invest on it, Waqar didn't agree but also didn't pursued further"
+      }
+    }
+  ]
+}

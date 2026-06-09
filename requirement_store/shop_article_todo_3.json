@@ -1,0 +1,23 @@
+{
+  "id": "shop_article_todo_3",
+  "title": {
+    "id": "collab_model",
+    "text": "Alignment with MT how the collaboration model on decision between departments looks like."
+  },
+  "section": "shop article",
+  "type": "todo",
+  "status": "Not Relevant",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-22T09:53:24.269464",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "Not Relevant",
+        "comment": "presently it is manual and through e-mails as mentioned above. Although i think this will not scale well."
+      }
+    }
+  ]
+}

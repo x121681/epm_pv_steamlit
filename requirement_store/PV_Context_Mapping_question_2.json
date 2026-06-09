@@ -1,0 +1,23 @@
+{
+  "id": "PV_Context_Mapping_question_2",
+  "title": {
+    "id": "PV-Eligibility",
+    "text": "Can an Algorithm be used to determine whether a PV is required or not based on the context of the tool? If yes, what are the most important factors and how should they be weighted?"
+  },
+  "section": "PV Context Mapping",
+  "type": "question",
+  "status": "Todo",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-22T11:25:41.895214",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "Todo",
+        "comment": "According to IS-G every IT-Asset and IT-Product needs a PV is a regulatory requrirement. now as mentioned on other places different repository leads and stackholder have different understanding semantically and hence different implementation of product, Asset, TK and AWS but i think we need to scope the implementation of EPM and thus require for some scripts, batch files to be excluded from having PV and PV-light or perhaps not even requireing PV so we need it but it needs to be discussed"
+      }
+    }
+  ]
+}

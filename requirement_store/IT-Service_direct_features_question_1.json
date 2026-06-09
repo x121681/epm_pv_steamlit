@@ -1,0 +1,23 @@
+{
+  "id": "IT-Service_direct_features_question_1",
+  "title": {
+    "id": "IT-Service direct features",
+    "text": "Lizenz Pflicht - Ja / Nein - Wir haben Lizenz art Opens source / Kommerziellwarum brauchen wir Begründung / funktionsweise als zwei separate FelderDringlichkeit - obwohl wir haben EPM nur für erstmal Hilfs Tool aber ich denke es ist gut das wir haben diese Dringlichkeit Aspekteoptional Dokumentation - was erwarten wir hier trotzdem ob es passtWas bedeutet ich kenne Hersteller / Vendor - bessere Formulierung?On-premises / Cloud (PaaS, IaaS oder SaaS)?"
+  },
+  "section": "IT-Service direct features",
+  "type": "question",
+  "status": "Todo",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-22T09:11:16.914140",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "Todo",
+        "comment": "some open features / recommendations"
+      }
+    }
+  ]
+}

@@ -159,3 +159,18 @@ show_requirements(
     ],
     req_type="note"
 )
+show_requirements(
+    "IT-Service direct features",
+    items=[
+        {
+            "id": "IT-Service direct features",
+            "text": "-Lizenz Pflicht - Ja / Nein - Wir haben Lizenz art Opens source / Kommerziell"
+                    "-warum brauchen wir Begründung / funktionsweise als zwei separate Felder"
+                    "-Dringlichkeit - obwohl wir haben EPM nur für erstmal Hilfs Tool aber ich denke es ist gut das wir haben diese Dringlichkeit Aspekte" 
+                    "-optional Dokumentation - was erwarten wir hier trotzdem ob es passt"
+                    "-Was bedeutet ich kenne Hersteller / Vendor - bessere Formulierung?"
+                    "-On-premises / Cloud (PaaS, IaaS oder SaaS)?",
+        }
+    ],
+    req_type="question"
+)

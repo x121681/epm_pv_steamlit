@@ -1,0 +1,23 @@
+{
+  "id": "admin_permission_check_note_1",
+  "title": {
+    "id": "Admin login",
+    "text": "This process is shown in this prototype for the sake of completeness, but it doesn't impact Whitelisting process as such."
+  },
+  "section": "admin permission check",
+  "type": "note",
+  "status": "Not Relevant",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-21T15:05:38.842720",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "Not Relevant",
+        "comment": "jsut a comment"
+      }
+    }
+  ]
+}

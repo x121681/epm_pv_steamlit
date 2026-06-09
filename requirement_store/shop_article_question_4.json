@@ -1,0 +1,23 @@
+{
+  "id": "shop_article_question_4",
+  "title": {
+    "id": "decision_black/white/grey_criteria",
+    "text": "Presently, a dummy AI check which randomly allocates in white / grey / blacklist allocates is done but eventually we need to understand how EPM-admin plan to do this? in this case it also is Freigabe possible , needed or not needed?"
+  },
+  "section": "shop article",
+  "type": "question",
+  "status": "Completed",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-22T09:47:06.782078",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "Completed",
+        "comment": "After discussion with IBW Patrick Fischer - he tried to explain how shop article process works for \"Ersteinschätzung\" there is no automation right now IBW Admins do this manually - Presently there are no resources and IBW doesn't see priority to automate it, I diagree.  The policies are also no well documented."
+      }
+    }
+  ]
+}

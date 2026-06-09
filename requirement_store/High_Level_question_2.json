@@ -1,0 +1,33 @@
+{
+  "id": "High_Level_question_2",
+  "title": {
+    "id": "Semantics_model_mapping",
+    "text": "IT-Product and its scope and its mapping to differentSemantics model - Interop - EAM needs to be agreed and strategy how to implement it?"
+  },
+  "section": "High Level",
+  "type": "question",
+  "status": "Todo",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-22T10:37:13.234423",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "Reviewed",
+        "comment": "Andreas Seyboth in terms of Interop and OSI worked on this topic. But i think so implementation lack, different people who are responsbile for different repositories have different understanding, even talking internally in EAM or architects where in LUY are IT-Products situated and as we have now product-light or support tool which are officially (Matthias mentioned) suppose to be in TK only but it needs to be agreed upon how to inforce this and check the data quality"
+      }
+    },
+    {
+      "timestamp": "2026-05-22T11:08:20.994698",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Reviewed",
+        "to": "Todo",
+        "comment": "Presently this happens manually using IBW admins they provide first filter. IS-G has a  strong regulatory requirement that every IT-Asset or IT-product must have a PV, now the question as mentioned on other pages the semantic clarity what defines an IT-product and IT-Asset and how it considered through different repository. Also i think so we can't implement this topic as a big bang so we need to exclude things that are too complicated or granular and systematically do it. needs to be discussed"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "Scanner_Yellow_Popup_question_2",
+  "title": {
+    "id": "Just_in_Time_Scenarios",
+    "text": "Do we allow time-bound whitelisting?"
+  },
+  "section": "Scanner Yellow Popup",
+  "type": "question",
+  "status": "Rejected",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-21T15:09:45.401104",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "Rejected",
+        "comment": "This was also discussed with IBW, theoratically the tool Beyond trust EPM server is in position to conduct it but according to the colleagues there are some other implementation like connection with IAM server - RBAC needs to be architected and there are no resouces for it"
+      }
+    }
+  ]
+}

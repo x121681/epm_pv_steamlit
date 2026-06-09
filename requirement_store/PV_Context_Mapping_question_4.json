@@ -1,0 +1,23 @@
+{
+  "id": "PV_Context_Mapping_question_4",
+  "title": {
+    "id": "PV-tasks algorithm",
+    "text": "Can we derive an algorithm to determine which PV tasks are required for a specific tool based on its context and the PV-eligibility decision?"
+  },
+  "section": "PV Context Mapping",
+  "type": "question",
+  "status": "Todo",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-22T15:36:32.310912",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "Todo",
+        "comment": "Presently the concepts are more static focus is to define some attributes that isolate a small set of PV-light tasks respectively product-light and rest of the tools are then full product and require full PV tasks but that doesn't sound feasible specially in long run. I personally think, probably there is a process on matter how bad in BSH that discuss with PV what kind of tasks they must do but i think it is inefficient. Here we want to implement a decision tree i think this will be useful for software evaluierung and beschaffung, but most probably there we are going to buy a tool. We can in any case develop a simple decision tree based weight base algorithm"
+      }
+    }
+  ]
+}

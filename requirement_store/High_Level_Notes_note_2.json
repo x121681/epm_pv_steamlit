@@ -1,0 +1,23 @@
+{
+  "id": "High_Level_Notes_note_2",
+  "title": {
+    "id": "1 year passed",
+    "text": "Meanwhile as it is more than 1 year may be we have shifted to a mixed strategy"
+  },
+  "section": "High Level Notes",
+  "type": "note",
+  "status": "Todo",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-22T10:41:04.533005",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "Todo",
+        "comment": "i think it is same as above - need to discussed but this is interoperability between EPM - LUY - MPI"
+      }
+    }
+  ]
+}

@@ -193,10 +193,6 @@ show_requirements(
             "text": "Alignment with PF, MT regarding the departments to be informed in case of Greylist decision.",
         },
         {
-            "id": "criteria_listing",
-            "text": "Align with PF, LS how they do plan to decide on listing or what is the procedure..",
-        },
-        {
             "id": "collab_model",
             "text": "Alignment with MT how the collaboration model on decision between departments looks like.",
         }

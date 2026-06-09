@@ -1,0 +1,23 @@
+{
+  "id": "PV_Context_Mapping_question_3",
+  "title": {
+    "id": "PV-Tasks",
+    "text": "Standard image of PV tasks are not complete?"
+  },
+  "section": "PV Context Mapping",
+  "type": "question",
+  "status": "Todo",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-22T15:33:05.597824",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "Todo",
+        "comment": "For dynamic implementation that is suggested here we need a top down reality of what tasks are for PVs such a list exist with gratitude to IS-G but they mentioned it is not up to date we need to follow up on this with IS-G if we want to implement more dynamic solution"
+      }
+    }
+  ]
+}

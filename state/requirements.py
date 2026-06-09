@@ -65,3 +65,40 @@ def add_requirement_event(req_id, action, actor, details=None):
 def get_all_requirements():
     init_requirement_store()
     return list(st.session_state.requirements.values())
+
+# -----------------------------
+# Status helpers
+# -----------------------------
+
+STATUS_ORDER = [
+    "Proposed",
+    "In Progress",
+    "Todo",
+    "Completed",
+    "Reviewed",
+    "Rejected",
+    "Not Relevant"
+]
+
+
+def get_requirements_grouped_by_status():
+    load_all_requirements()
+    grouped = {status: [] for status in STATUS_ORDER}
+    grouped["Other"] = []
+
+    for req in get_all_requirements():
+        status = req.get("status", "Unknown")
+        if status in grouped:
+            grouped[status].append(req)
+        else:
+            grouped["Other"].append(req)
+
+    if not grouped["Other"]:
+        grouped.pop("Other")
+
+    return grouped
+
+
+def get_requirement_status_distribution():
+    grouped = get_requirements_grouped_by_status()
+    return {status: len(items) for status, items in grouped.items()}

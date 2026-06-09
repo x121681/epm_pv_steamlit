@@ -1,0 +1,23 @@
+{
+  "id": "Scanner_Yellow_Popup_todo_3",
+  "title": {
+    "id": "interop.",
+    "text": "Link LUY → CMDB → EPM decision trace."
+  },
+  "section": "Scanner Yellow Popup",
+  "type": "todo",
+  "status": "In Progress",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-21T15:48:03.292505",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "In Progress",
+        "comment": "This was suggested in terms of having clean interoperability and using the data between CMDB ,  LUY and Beyond Trust but no response to this topic has been provided by IBW"
+      }
+    }
+  ]
+}

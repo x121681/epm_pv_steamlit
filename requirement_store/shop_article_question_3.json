@@ -1,0 +1,23 @@
+{
+  "id": "shop_article_question_3",
+  "title": {
+    "id": "arch_criteria",
+    "text": "Also it is not clear when a software needs to be evaluated by Architecture Board, what criteria are architectural?"
+  },
+  "section": "shop article",
+  "type": "question",
+  "status": "Todo",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-22T09:35:34.820686",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "Todo",
+        "comment": "This is still open, we are working on it a concept is developed with categorization (see luy page) to intergrate in LUY. I think technically categoirzing the tool in domain and capability if possible and having a proper process is architectural and deciding in which Repo it should be as of now LUY, we do have some boundries with IS-G - PV-Light concept their responsibility but we are going to store it in LUY present concept also if a tool is open source or commercial, license is required is responsibility of IS-V but we are going to store this information as well in LUY as of now, reconfirm this information"
+      }
+    }
+  ]
+}

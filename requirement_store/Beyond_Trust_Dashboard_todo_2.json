@@ -1,0 +1,12 @@
+{
+  "id": "Beyond_Trust_Dashboard_todo_2",
+  "title": {
+    "id": "discrepency",
+    "text": "Synchronize LUY, blocked apps, and dashboard categories"
+  },
+  "section": "Beyond Trust Dashboard",
+  "type": "todo",
+  "status": "Proposed",
+  "actor": "alice.admin",
+  "history": []
+}

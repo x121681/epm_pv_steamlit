@@ -1,0 +1,23 @@
+{
+  "id": "Beyond_Trust_Dashboard_todo_1",
+  "title": {
+    "id": "UX_transparency",
+    "text": "Make Blacklist / Whitelist / Greylist transparent with polling"
+  },
+  "section": "Beyond Trust Dashboard",
+  "type": "todo",
+  "status": "Rejected",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-22T09:27:46.675115",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "Rejected",
+        "comment": "As mentioned on other pages right now this level of transparency for normal user is considered unnecessary by IBW although i don't agree with it but perhaps for Admin it is already visible in beyond trust"
+      }
+    }
+  ]
+}

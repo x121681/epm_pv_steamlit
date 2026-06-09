@@ -1,0 +1,23 @@
+{
+  "id": "Scanner_Yellow_Popup_question_3",
+  "title": {
+    "id": "popularity",
+    "text": "Do repeated requests influence decision confidence?"
+  },
+  "section": "Scanner Yellow Popup",
+  "type": "question",
+  "status": "Todo",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-21T15:16:34.441668",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "Todo",
+        "comment": "not discussed yet"
+      }
+    }
+  ]
+}

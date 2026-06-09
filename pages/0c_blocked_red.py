@@ -200,14 +200,3 @@ show_requirements(
     ],
     req_type="question"
 )
-
-show_requirements(
-    "blocked red",
-    items=[
-        {
-            "id": "assume_auto_trigger",
-            "text": "Until clarified, we assume email to epm-admin@shg.de triggers Shop Artikel workflow.",
-        }
-    ],
-    req_type="todo"
-)

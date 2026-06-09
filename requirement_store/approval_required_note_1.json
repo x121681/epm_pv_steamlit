@@ -1,0 +1,23 @@
+{
+  "id": "approval_required_note_1",
+  "title": {
+    "id": "responsiblity",
+    "text": "Each department is responsible for their own internal process."
+  },
+  "section": "approval required",
+  "type": "note",
+  "status": "Todo",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-22T10:03:10.733385",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "Todo",
+        "comment": "As mentioned presently there is no plan of such a thing, we have to also discuss internally if we need such a thing as it depends on what kind of load we will have if there are not many Freigabe requests then we don't need an automation. Once Lisa (IS-G) mentioned if we need such a thing with MPI we have to align with their PI demand funnel and we can think about it. Perhaps Lukas can help here as well. Presently upto our knowledge the direction of information flow is LUY provides its IT-Assets - AWS and TKs to MPI and no information flow happens otherway around"
+      }
+    }
+  ]
+}

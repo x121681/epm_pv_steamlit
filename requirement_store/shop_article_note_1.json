@@ -1,0 +1,23 @@
+{
+  "id": "shop_article_note_1",
+  "title": {
+    "id": "paramerters",
+    "text": "The admin evaluates the software based on:- Security risk (malware history, remote access ability, encryption bypass)- Data protection implications (GDPR relevance, telemetry, cloud connections)- License / legal concerns- Compliance guidelines- Technical stability impact- Business need vs risk"
+  },
+  "section": "shop article",
+  "type": "note",
+  "status": "In Progress",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-22T09:49:54.642145",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "In Progress",
+        "comment": "I think this is also part of the discussion of PV and PV-Light or what responsibilities a PV should have for the tool. Even though there are different discussions and concept from different stakeholders proposed but no final and official documentation is done."
+      }
+    }
+  ]
+}

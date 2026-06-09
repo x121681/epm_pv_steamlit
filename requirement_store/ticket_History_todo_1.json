@@ -1,0 +1,23 @@
+{
+  "id": "ticket_History_todo_1",
+  "title": {
+    "id": "improve log",
+    "text": "log is difficult to understand, we need to improve it"
+  },
+  "section": "ticket History",
+  "type": "todo",
+  "status": "Reviewed",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-22T09:20:04.697682",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "Reviewed",
+        "comment": "i think i have discussed this point with IBW Patrick Fischer as mentioned MPI - Shop article process will be used to monitor the state of ticket created for new requests and also will trigger the emails to different admins from IS-P, -G, -V etc and every employee of BSH can see MPI and i think so will be able to see their tickets there. To what extend is the log and how granular it is, is an open question"
+      }
+    }
+  ]
+}

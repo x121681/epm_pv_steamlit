@@ -1,0 +1,23 @@
+{
+  "id": "shop_article_question_2",
+  "title": {
+    "id": "stakeholder_feedback",
+    "text": "How there feedback is collected, also per e-mail and manual?"
+  },
+  "section": "shop article",
+  "type": "question",
+  "status": "Completed",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-22T09:29:41.479093",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "Completed",
+        "comment": "yes as of now it is planned to do per e-mail and manually"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "extra_info_note_1",
+  "title": {
+    "id": "extra information",
+    "text": "not part of official dialog but some things are valid to be asked here need a confirmation with other stakeholders"
+  },
+  "section": "extra info",
+  "type": "note",
+  "status": "Todo",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-22T09:05:23.153482",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "Todo",
+        "comment": "Following is the difference:\nLizenz Pflicht - Ja / Nein - Wir haben Lizenz art Opens source / Kommerziell\nwarum brauchen wir Begründung / funktionsweise als zwei separate Felder\nDringlichkeit - obwohl wir haben EPM nur für erstmal Hilfs Tool aber ich denke es ist gut das wir haben diese Dringlichkeit Aspekte \noptional Dokumentation - was erwarten wir hier trotzdem ob es passt\nWas bedeutet ich kenne Hersteller / Vendor - bessere Formulierung?\nOn-premises / Cloud (PaaS, IaaS oder SaaS)?"
+      }
+    }
+  ]
+}

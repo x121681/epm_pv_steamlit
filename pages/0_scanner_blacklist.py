@@ -62,33 +62,10 @@ show_requirements(
     "scanner blacklist",
     items=[
         {
-            "id": "User_challenge",
-            "text": "Not only we need to integrate flexibility of white / blacklist swapping but also user can challenge it",
-        },
-        {
-            "id": "Blocked_vs_Blacklist",
-            "text": "Clarify with IBW difference between blocked and blacklisted software and their decision process"
-        },
-        {
             "id":"state blacklist",
             "text":"If on this page user sees a luy app as blacklist then for learn more in EPM dashbaord he should be "
             "able to see the same app in blacklist section"
         }
     ],
     req_type="todo"
-)
-
-show_requirements(
-    "scanner blacklist",
-    items=[
-        {
-            "id": "Challenging_not_required",
-            "text": "IBW thinks here is no need of providing objections possibilities",
-        },
-        {
-            "id": "Challenging_reasoning",
-            "text": "Although it is reasonably true that some softwares / sites are always to be blacklisted (e.g. hacking tools)"
-        }
-    ],
-    req_type="note"
 )

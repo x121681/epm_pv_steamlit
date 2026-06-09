@@ -1,0 +1,23 @@
+{
+  "id": "shop_article_question_1",
+  "title": {
+    "id": "stakeholder_contact",
+    "text": "How the stakeholeders like CSO-I, IS-P are informed is not clear? Per E-Mail?"
+  },
+  "section": "shop article",
+  "type": "question",
+  "status": "Completed",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-22T09:29:07.812762",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "Completed",
+        "comment": "Yes shop article will trigger an email to these stakeholders as per needed and then their respond is manual and should be checked by IBW admins manually in specific cases"
+      }
+    }
+  ]
+}

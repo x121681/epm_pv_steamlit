@@ -1,0 +1,33 @@
+{
+  "id": "High_Level_question_1",
+  "title": {
+    "id": "Whitelist_vs_Blacklist",
+    "text": "Are we following whitelist first or blacklist first strategy: means denying [everything] by default and allowing only what is in white or allowing everything by default and only blocking what is in black - if we are mixing both then how does it work? In both cases what is to be allowed and what [Everything] means needs to be clarified"
+  },
+  "section": "High Level",
+  "type": "question",
+  "status": "In Progress",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-22T10:34:21.979587",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "Completed",
+        "comment": "discussion with Lukas Schweizer IBW : We have a BSH Catalog of Whitelist software only software in this catalog are permitted and those which are not on the list are not directly pushed to blacklist but an approval process message is shown, explicit placement of something in blacklist by admins. So we have a whitelist dominant strategy."
+      }
+    },
+    {
+      "timestamp": "2026-05-22T11:01:34.386260",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Completed",
+        "to": "In Progress",
+        "comment": "factors are shown in this page and through out infromation collected in the flow Presently our concept is more static that wants to define on very limited factor PV-Light a very small subset and rest are PV-Full, this is more dynamic approach presented here, but we need to check the feasability and resources if we want to implement such a dynamic and granular solution"
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "shop_article_todo_1",
+  "title": {
+    "id": "grey_stackholders",
+    "text": "Alignment with PF, MT regarding the departments to be informed in case of Greylist decision."
+  },
+  "section": "shop article",
+  "type": "todo",
+  "status": "Completed",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-22T09:52:21.402282",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "Completed",
+        "comment": "Presently IBW have established that very few new greylist entries are coming what we have in greylist are old entries that we have to solve and after we have established a PV alloction process the old can be handled and new should not occur anymore so for 'Freigabe' or greylist departments are mentioned above will be contacted and the procedure will be conducted to which PV-Light process is a part."
+      }
+    }
+  ]
+}

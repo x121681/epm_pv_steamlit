@@ -1,0 +1,23 @@
+{
+  "id": "scanner_blacklist_todo_1",
+  "title": {
+    "id": "state blacklist",
+    "text": "If on this page user sees a luy app as blacklist then for learn more in EPM dashbaord he should be able to see the same app in blacklist section"
+  },
+  "section": "scanner blacklist",
+  "type": "todo",
+  "status": "In Progress",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-21T14:54:43.529423",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "In Progress",
+        "comment": "The idea of making Blacklist transparent if not giving direct access to the beyond trust server some where globally was discussed there is a PDF list in beconnected site. As i understood they plan to eventually update the blacklist when, how often and if such pdf or word list will be communciated is open for discussion"
+      }
+    }
+  ]
+}

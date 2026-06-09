@@ -1,0 +1,23 @@
+{
+  "id": "High_Level_question_4",
+  "title": {
+    "id": "PV-tasks algorithm",
+    "text": "Can we derive an algorithm to determine which PV tasks are required for a specific tool based on its context and the PV-eligibility decision?"
+  },
+  "section": "High Level",
+  "type": "question",
+  "status": "Todo",
+  "actor": "alice.admin",
+  "history": [
+    {
+      "timestamp": "2026-05-22T11:13:03.591844",
+      "action": "Status updated",
+      "actor": "alice.admin",
+      "details": {
+        "from": "Proposed",
+        "to": "Todo",
+        "comment": "As the attributes are not finalized we still have to do such a thing and if we need it it could be a simple decision tree depending on the factors. Also we have to decide on the weight. this needs to be agreed and documented and finally the need of automation must be analyzed."
+      }
+    }
+  ]
+}
