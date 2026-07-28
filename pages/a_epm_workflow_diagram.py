@@ -13,9 +13,60 @@ st.set_page_config(
 
 st.title("📊 EPM Workflow Journey Map")
 st.caption(
-    "Click the steps directly under the diagram to navigate. "
-    "Buttons are aligned 1:1 with the workflow nodes."
+    "Use this page as the entry point for the EPM approval journey. "
+    "If you are new, follow the simple path below first."
 )
+st.info("Recommended first steps: 1) start from the end-user flow, 2) create or track a request, 3) follow the approval path.")
+st.success("If you already opened a request, go straight to My Tickets or the EPM dashboard.")
+
+st.divider()
+st.subheader("🧭 Quick Start")
+st.caption(
+    "Choose the role that matches your current task. These buttons guide you to the most common next steps."
+)
+
+c1, c2, c3 = st.columns(3)
+
+with c1:
+    st.markdown("### 🧑‍💻 End User")
+    if st.button("Start device login"):
+        st.switch_page("pages/19_user_device_login.py")
+    if st.button("Open a blocked app"):
+        st.switch_page("pages/0_scanner_blacklist.py")
+    if st.button("Request software install"):
+        st.switch_page("pages/0a_admin_permission.py")
+    if st.button("Send follow-up mail"):
+        st.switch_page("pages/0c_blocked_red.py")
+    if st.button("Create EPM ticket"):
+        st.switch_page("pages/0b_blocked_yellow.py")
+    if st.button("New request / IT Service Direct"):
+        st.switch_page("pages/1_it_service_direkt.py")
+
+with c2:
+    st.markdown("### 🔧 Track Requests")
+    if st.button("View my tickets"):
+        st.switch_page("pages/17_ticket_history.py")
+    if st.button("Open EPM dashboard"):
+        st.switch_page("pages/6_epm_scanner_dashboard.py")
+    st.markdown("### 📊 EPM Admin")
+    if st.button("Open Shop Artikel"):
+        st.switch_page("pages/5_shop_artikel.py")
+
+with c3:
+    st.markdown("### 🏛 Review & Approval")
+    if st.button("Open approvals"):
+        st.switch_page("pages/8_approval_required.py")
+    st.markdown("### Feedback")
+    if st.button("Architecture review"):
+        st.switch_page("pages/14_is_p_architecture_flow.py")
+    if st.button("PV context mapping"):
+        st.switch_page("pages/22_PV_context_mapping.py")
+    if st.button("CSO-I review"):
+        st.switch_page("pages/10_backend_eirma.py")
+    if st.button("License review"):
+        st.switch_page("pages/18_backend_spyder.py")
+
+st.divider()
 
 # -------------------------------------------------
 # 1️⃣ Mermaid diagram (VISUAL ONLY)
@@ -164,54 +215,6 @@ def go(page: str):
 # -------------------------------------------------
 # 2️⃣ Inline overlay buttons (ALIGNED TO DIAGRAM)
 # -------------------------------------------------
-
-st.divider()
-st.subheader("🔗 Stakeholder Navigation")
-st.caption(
-    "Even if you want to try Arch or EPM Journey a ticket is required so please login as end user first."
-    "and then use (New request) to create a ticket, then with proper credentials you can login as EPM admin or Arch team."
-)
-
-c1, c2, c3 = st.columns(3)
-
-with c1:
-    st.markdown("### 🧑‍💻 End User")
-    if st.button("Device Login / SSO"):
-        st.switch_page("pages/19_user_device_login.py")
-    if st.button("Blacklisted App"):
-        st.switch_page("pages/0_scanner_blacklist.py")
-    if st.button("Admin Permission"):
-        st.switch_page("pages/0a_admin_permission.py")
-    if st.button("Outlook mail method"):
-        st.switch_page("pages/0c_blocked_red.py")
-    if st.button("EPM ticket method"):
-        st.switch_page("pages/0b_blocked_yellow.py")
-    if st.button("New Request/IT Service Direkt"):
-        st.switch_page("pages/1_it_service_direkt.pyy")
-
-with c2:
-    st.markdown("### 🔧 EPM Management Tools")
-    if st.button("My Tickets"):
-        st.switch_page("pages/17_ticket_history.py")
-    if st.button("EPM Scanner Dashboard"):
-        st.switch_page("pages/6_epm_scanner_dashboard.py")
-    st.markdown("### 📊 EPM Admin")
-    if st.button("Shop Artikel"):
-        st.switch_page("pages/5_shop_artikel.py")
-
-with c3:
-    st.markdown("### 🏛 Approval Required")
-    if st.button("Approvals"):
-        st.switch_page("pages/8_approval_required.py")
-    st.markdown("### Feedback")
-    if st.button("Architecture Review"):
-        st.switch_page("pages/14_is_p_architecture_flow.py")
-    if st.button("IS-G PV Context"):
-        st.switch_page("pages/22_PV_context_mapping.py")
-    if st.button("CSO-I Review"):
-        st.switch_page("pages/10_backend_eirma.py")
-    if st.button("License Review"):
-        st.switch_page("pages/18_backend_spyder.py")
 
 st.subheader("📊 IBW / EPM Original Flow")
 st_mermaid("""
